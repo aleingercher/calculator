@@ -1,4 +1,4 @@
-Calculadora by Ale Ingercher
+Calculator by Ale Ingercher
 ---------------------------------
 La App principal, se compone de estos componentes:
 
