@@ -1,15 +1,15 @@
 Calculator by Ale Ingercher
 ---------------------------------
-La App principal, se compone de estos componentes:
+Main App component was built in this way:
 
 			App
 			/  \
 		       /    \
-		      /      \
 	         Display    Keypad
 			     /   \
 			    /	  \
 		    TinyButton    Button
 
-Por cuestiones de mejorar la lectura, las constantes con los styled components
-iran al final de cada componente
+To improve reading, styled-components will be at the end of every component file.
+
+Please, try it! Every advice will be apreciated.
