@@ -41,15 +41,16 @@ export const App = () => {
 		if(isOperator(tecla)) {setPointAloud(true)}
 
 		if (result !== "0") {
-			if (exp.test(result+tecla)) {
-				
+			if (exp.test(result)) {
 				//  si el ultimo char era una operacion y tecla tambien ,reemplazo el ultimo char por tecla
 				if (isOperator(result.slice(-1)) && isOperator(tecla)) {
 					return result.slice(0, -1) + tecla;
 				}
-
+				// sino, la agrego
 				return result + tecla;
 			}
+
+			// si no pasa el test, el resultado no cambia
 			return result;
 		}
 
