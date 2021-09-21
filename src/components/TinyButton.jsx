@@ -26,6 +26,7 @@ const TinyButtonStyled = styled.div`
     width:40px;
     height: 40px;
 	cursor: pointer;
+	user-select: none;
 
 	&:hover {
 		opacity: 0.7;

@@ -29,6 +29,7 @@ const ButtonStyled = styled.div`
 	/* width: 100%; */
 	border-radius: 5px;
 	cursor: pointer;
+	user-select: none;
 
 	&:hover {
 		opacity: 0.7;
