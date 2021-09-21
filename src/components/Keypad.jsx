@@ -4,7 +4,7 @@ import TinyButton from "./TinyButton";
 
 
 // el keypad, recibira las funciones que aplicaran la logica de negocio como props
-export const Keypad = ( props) => {
+export const Keypad = ( props ) => {
 	
 // array con caracteres para la funcion que genera la botonera	
 	const characters = ["C", "/", "x", "-", "7", "8", "9", "+", "4", "5", "6", "1", "2", "3", "=", "0", "." , "←"];
