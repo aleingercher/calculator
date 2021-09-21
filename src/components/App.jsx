@@ -60,8 +60,8 @@ export const App = () => {
 
 	// . borra de a un caracter. Si es el ultimo, retorna 0
 	const cDel = () => {
-		return valueToDisplay.length > 1
-			? valueToDisplay.substring(0, valueToDisplay.length - 1)
+		return result.length > 1
+			? result.substring(0, result.length - 1)
 			: setResult("0");
 	};
 
@@ -95,12 +95,10 @@ export const App = () => {
 	};
 
 	// *****************************************************
-
-	const valueToDisplay = result.slice(0, 11)
-
+	
 	return (
 		<AppStyled>
-			<Display value={valueToDisplay} />
+			<Display value={result} />
 			<Keypad
 				onClickAdd={(e) => setResult(cAdd(e))}
 				onClickClear={() => {setPointAloud(true); setResult("0")}}

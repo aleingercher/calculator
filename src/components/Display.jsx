@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Display = ({ value }) => {
 	return (
 		// uso el slice para que no se me salgan los numeros de la calculadora
-		<DisplayStyled>{value}</DisplayStyled>
+		<DisplayStyled>{value.slice(0, 12)}</DisplayStyled>
 	);
 };
 
